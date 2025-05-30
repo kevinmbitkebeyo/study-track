@@ -1,6 +1,6 @@
 import { Book } from "lucide-react";
 
-function AppLogo() {
+export function AppLogo() {
     return (
       <div className="flex items-center justify-between space-x-2 mt-1">
         <div className="flex gap-2 items-center">
