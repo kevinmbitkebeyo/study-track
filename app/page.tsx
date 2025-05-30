@@ -14,7 +14,7 @@ export default function Home() {
         showSearchBar={false}
         buttonData={{ text: "Add Session", icon: MdAdd }}
         leftSection={<AppLogo />}
-        iconButtons={[<ModeToggle />]}
+        iconButtons={[<ModeToggle key="mode-toggle"/>]}
       />
     </div>
   );
